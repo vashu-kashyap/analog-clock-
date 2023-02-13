@@ -1,0 +1,60 @@
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    width: 40vw;
+    height: 40vw;
+    background: url(./roman-numerals-png-42134.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#hours,#mintue,#seconds{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+}
+#hours{
+    width: 2%;
+    height: 20%;
+    top: 30.5%;
+    left: 49%;
+    position: absolute;
+    transform-origin: bottom;
+}
+#mintue{
+    width: 1.5%;
+    height: 25%;
+    top: 25.5%;
+    left: 49%;
+    position: absolute;
+    transform-origin: bottom;
+}
+#seconds{
+    width: 1%;
+    height: 35%;
+    top: 15.5%;
+    left: 49%;
+    position: absolute;
+    transform-origin: bottom;   
+}
+.whitebox{
+    width: 15%;
+    height: 7%;
+    background-color:gray;
+    position: absolute;
+    bottom: 0;
+}
+.circle{
+    height: 6%;
+    width: 6%;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+
+}
